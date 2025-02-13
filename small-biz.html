@@ -10,16 +10,29 @@
 
         .container {
             padding: 20px;
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .header {
+            margin: 0;
+            padding: 0;
+        }
+        .container-article {
+            padding: 0;
+            margin: 0;
         }
 
-        p {
-            
-            /* font-family: "Roboto", serif;
-            font-optical-sizing: auto;
-            font-weight: 300;
-            font-style: normal;
-            line-height: 1.4em; */
-            
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            padding: 15px 0;
+        }
+
+
+        p   {
+        
             font-family: "Roboto Flex", serif;
             font-optical-sizing: auto;
             font-weight: 300;
@@ -38,42 +51,51 @@
                 "YTUC" 712;
             line-height: 1.4em;
             font-size: 16px;
-
-
+    
             
         }
         h1 {
+
             font-family: "Merriweather", serif;
             font-weight: 700;
             font-style: normal;
             font-size: 48px;
+            padding: 0;
+            margin: 10px 0;
+        }
+        .byline {
+            font-size: 14px;
+            letter-spacing: .02em;
+            font-weight: 100;
+            margin: 0;
+            padding: 0;
         }
 
         .photo_caption {
             font-size: 14px;
             font-weight: 200;
+            margin: 0;
+            padding: 0;
             
 
         }
         .photo_credit {
-            font-size: 12px;
+            font-size: 14px;
             letter-spacing: .02em;
             font-weight: 100;
 
         }
 
-        
-
     </style>
 </head>
 <body>
     <div class="container">
+    <div class="header"></div>
     <h1>Mom & Pop Retailers Thrive in Rural Areas, While Folding Elsewhere</h1>
     <p class="byline">By Coralie Carlson </p>
-    <img src="Traverse-Bay-Farms-2.jpg" alt="a picture of a storefront" width="500px">
+    <img class="lead-image" src="Traverse-Bay-Farms-2.jpg" alt="a picture of a storefront">
     <p class="photo_caption">Traverse Bay Farms is among the small retail business stores in rural areas that are flourishing, even as similar stores struggle in more populated areas. <span class="photo_credit">Photo courtesy of Traverse Bay Farms</span></p> 
-</div>  
-<div class="container article">
+<div class="container-article">
     <p>At Traverse Bay Farms near the shore of Lake Michigan, where visitors can try the region’s famous tart cherries in treats from juice to salsa, the pandemic cherry-picked a new type of customer. </p>
 
     <p>More remote workers moved to rural Michigan, where Andy LaPointe runs his two mom-and-pop shops in Bellaire and Elk Rapids, villages with populations just above 1,000. With new neighbors eager to experience the local sights and flavors, LaPointe was ready with award-winning local flavors and printed guides to give newcomers the inside scoop on what to do in the area.</p> 
@@ -124,11 +146,11 @@
     <p>But then they met someone who had a connection at a local credit union who wanted to support small businesses. With the money in hand, they quickly opened and proceeded to sell out every item, every single day of their first week. </p>
         
     <p>“What was waiting for us was a community that was starving for a bakery,” Thoemke said.</p>
-        
-    <img src="Black-Cat-Bakery.jpg" alt="a picture of two women standing behind the counter at a bakery">
+    
+
+    <img class="image-body" src="Black-Cat-Bakery.jpg" alt="a picture of two women standing behind the counter at a bakery">
          
-    <p class="photo_caption">Maggie Thoemke and Morgan Laite opened Black Cat Bakery in Moorhead, Minn., in December 2023.</p> 
-    <p class="photo_credit">Photo credit: Coralie Carlson</p>
+    <p class="photo_caption">Maggie Thoemke and Morgan Laite opened Black Cat Bakery in Moorhead, Minn., in December 2023. <span class="photo_credit">Photo credit: Coralie Carlson</p>
         
     <p>Although women and minorities are the fastest-growing demographics of entrepreneurs, Souare said they are also hit the hardest by the lack of capital funding. Women receive only 2% of venture startup capital, and Black entrepreneurs 1%. </p>
         
