@@ -21,7 +21,8 @@
         .container-article {
             padding: 0;
             margin: 0 auto;
-            width: 70%;
+            width: 80%;
+            max-width: 650px;
         }
 
         img {
@@ -34,7 +35,7 @@
 
         p   {
         
-            font-family: "Roboto Flex", serif;
+            font-family: "Roboto Flex", sans-serif;
             font-optical-sizing: auto;
             font-weight: 300;
             font-style: normal;
@@ -64,8 +65,16 @@
             padding: 0;
             margin: 10px 0;
         }
+        h2 {
+            font-family: "Merriweather", serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 32px;
+            padding: 0;
+            margin: 10px 0;
+        }
         h3 {
-            font-family: "Roboto Flex", serif;
+            font-family: "Roboto Flex", sans-serif;
             font-weight: 300;
             font-size: 24px;
             border-style: double;
@@ -78,7 +87,7 @@
             font-style: italic;
         }
         h4 {
-            font-family: "Roboto Flex", serif;
+            font-family: "Roboto Flex", sans-serif;
             font-weight: 700;
             font-size: 18px; 
            
@@ -104,6 +113,7 @@
             font-size: 14px;
             letter-spacing: .02em;
             font-weight: 100;
+            color: #1d81a2;
 
         }
  
@@ -117,14 +127,55 @@
             font-size: 18px;
             letter-spacing: 0.1em;
 
+        } 
+
+        .right-photo-wrapper {
+
+            width: 220px;
+            float: right;
+            margin: 0 0 10px 15px;
+            text-align: left;
+        }
+
+        .right_photo {
+            width: 100%;
+
+        }
+
+        @media (max-width: 650px) {
+        .container-article {
+            width: 90%;
+
+            }
+        }
+        /* For mobile screens */
+        @media (max-width: 480px)  {
+            .container h1 {
+                font-size: 28px;
+            }
+            .container h2 {
+                font-size: 18px;
+            }
+            .container .section {
+                padding: 2px;
+                font-size: 12px;
+            }
+            .container-article {
+                width: 95%;
+            }
+            .container .right-photo-wrapper {
+                float: none; 
+                width: 100%; 
+                margin: 0;
+    }
         }
 
     </style>
 </head>
 <body>
     <div class="container">
-    <div class="section">Business News</div>
     <div class="header">
+    <div class="section">Business News</div>
     <h1>Mom & Pop Retailers Thrive in Rural Areas, While Folding Elsewhere</h1>
     <h2>Data show surprising regional trend in small retail business success</h2>
     <p class="byline">By Coralie Carlson </p></div>
@@ -138,7 +189,7 @@
     <p>“When they moved from the urban or the suburban areas to the rural areas, they wanted to truly experience the rural lifestyle and patronize the local companies and the local businesses like ours,” LaPointe said. </p>
         
     <p>LaPointe’s business is thriving as rural America has become a bright spot for small retail. Bucking a nationwide trend, the number of retailers with 20 or fewer employees grew by 2 percent in rural counties, those with populations fewer than 5,000, in 2022, according to Census data. Nationwide, there was a nearly 4% decrease in the little stores that include fruit stands, children’s clothing stores, and businesses that sell products online directly to consumers.</p>     
-    <iframe title="Small Retail Businesses Grow in Rural Counties " aria-label="Column Chart" id="datawrapper-chart-rAIhd" src="https://datawrapper.dwcdn.net/rAIhd/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="493" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+    <iframe title="Small Retail Businesses Grow in Rural Counties " aria-label="Column Chart" id="datawrapper-chart-rAIhd" src="https://datawrapper.dwcdn.net/rAIhd/2/" scrolling="no" frameborder="0" style="width: 100%; min-width: 100% !important; border: none;" height="493" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
     </script>
        
     <p>This follows a boom in small retail businesses in the first two years of the pandemic. With people stuck at home, reevaluating their priorities and flush with stimulus money, many started their own ventures. </p>
@@ -147,7 +198,7 @@
         
     <p>Even Amazon helped because these new retailers could sell their goods on the platform and have immediate access to a worldwide market, although the online behemoth also presented competition and price pressures.</p> 
 
-    <iframe title="Post-Pandemic Upheaval for Small Retail Businesses " aria-label="Column Chart" id="datawrapper-chart-6JRkd" src="https://datawrapper.dwcdn.net/6JRkd/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="510" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+    <iframe title="Post-Pandemic Upheaval for Small Retail Businesses " aria-label="Column Chart" id="datawrapper-chart-6JRkd" src="https://datawrapper.dwcdn.net/6JRkd/4/" scrolling="no" frameborder="0" style="width: 100%; min-width: 100% !important; border: none;" height="510" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
     </script>
      
     <p>Now those heady days appear to be over in urban and suburban areas. Those mom-and-pop shops are clobbered with challenges from securing startup funding to competition from big-box and online retailers. </p>
@@ -162,14 +213,21 @@
         
     <p>“There is an ethos around entrepreneurship in small towns,” said Kim Skobba, a professor at the University of Georgia who studies economic development in rural areas.</p>
         
-    <p>Rural areas have long had a slightly higher rate of self-employment than in big cities, said Becky McCray, a rural expert and publisher of smallbizsurvival.com, who explained that it likely stems from the area’s agricultural heritage. </p>
-        
+    <p>Rural areas have long had a slightly higher rate of self-employment than in big cities, said Becky McCray, a rural expert and publisher of <a href="https://smallbizsurvival.com/" target="_blank">smallbizsurvival.com</a> who explained that it likely stems from the area’s agricultural heritage. </p>
+      
     <p>“If you're a farmer and you're figuring out ways to make things work, then over the decades this translates into, I will figure out a way to make my life work,” she explained. </p>
         
-    <h3>“There is an ethos around entrepreneurship in small towns.” <span id="blue">– Kim Skobba, University of Georgia professor</span></h3>
+    <h3>“There is an ethos around entrepreneurship in small towns.” – Kim Skobba, University of Georgia professor</h3>
 
     <p>The pandemic brought new customers to rural areas, as people could work remotely and wanted a different lifestyle. At the same time, the shutdowns forced many of those rural businesses to find new ways to reach customers, from curbside pickup to online stores. </p>
+     
+    <div class="right-photo-wrapper">
+        <img src="Becky-McCray.-Photo-by-Colton-Foote-2-261x300.jpg" class="right_photo" alt="Becky McCray headshot">
+    
         
+        <p class="photo_caption">Becky McCray <span class="photo_credit">Photo credit: Colton Foote</span></p>
+    </div> 
+
     <p>“There's no doubt in my mind that the pandemic reshaped their market area,” said Greiner. “So maybe they’re still a really small retailer. But instead of serving just a county's worth of residences, they start selling online. And all of a sudden, they're in the global marketplace.”</p>
         
     <p>McCray – who lives in Hopeton, Oklahoma, population 30 – has run a survey of small rural businesses for 10 years. It has revealed that these entrepreneurs are finding new ways to reach customers, from online shops to influencer-style tactics. “We know that innovation is out there.”</p>
@@ -191,7 +249,7 @@
 
     <img class="image-body" src="Black-Cat-Bakery.jpg" alt="a picture of two women standing behind the counter at a bakery">
          
-    <p class="photo_caption">Maggie Thoemke and Morgan Laite opened Black Cat Bakery in Moorhead, Minn., in December 2023. <span class="photo_credit">Photo credit: Coralie Carlson</p>
+    <p class="photo_caption">Maggie Thoemke and Morgan Laite opened Black Cat Bakery in Moorhead, Minn., in December 2023. <span class="photo_credit">Photo credit: Coralie Carlson</span></p>
         
     <p>Although women and minorities are the fastest-growing demographics of entrepreneurs, Souare said they are also hit the hardest by the lack of capital funding. Women receive only 2% of venture startup capital, and Black entrepreneurs 1%. </p>
         
